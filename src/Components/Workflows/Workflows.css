@@ -1,0 +1,54 @@
+.workflows-container {
+  /* border: 1px solid black; */
+  padding: 2rem;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  left: 15.8rem;
+  top: 5rem;
+}
+
+.workflow-top {
+  display: flex;
+  gap: 40rem;
+  margin-left: 2rem;
+  align-items: center;
+}
+
+.workflow-top button {
+  width: 10rem;
+  padding: 0.8rem;
+  color: #fff;
+  background:#87ceeb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.workflow-button {
+  display: flex;
+  gap: 35rem;
+  margin-left: 2rem;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  gap: 2rem;
+  /* margin-bottom: 2rem; */
+}
+
+.list a {
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+.list a:hover {
+  border-bottom: 2px solid black;
+}
+
+.workflow-button button {
+  border: none;
+}
